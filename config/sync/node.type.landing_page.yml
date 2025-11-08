@@ -1,0 +1,19 @@
+uuid: 90387f48-3c97-45ac-9375-2caef4e5989b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: mNmadAa-t9k377nHUAkS1CfhhoxpoYQIXTv9G3naaBY
+name: 'Landing page'
+type: landing_page
+description: 'Use landing pages for your dynamic content, such as a home page.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

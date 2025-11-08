@@ -1,0 +1,12 @@
+uuid: a68f2fd8-a973-4388-928b-3e2e2c81ec76
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5h5G9ZJaSOX_VmMdlp9jn66vdhmwK50b5qm60WMygMw
+id: featured_items
+label: 'Featured Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 7fd3f2e5-7449-4a73-9bd5-d7d13c026c6b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - address
+    - profile
+_core:
+  default_config_hash: l2okytkJohIWmU2T2NmxRzna88wCBVluBofI9VURZ4k
+id: profile.field_profile_address
+field_name: field_profile_address
+entity_type: profile
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

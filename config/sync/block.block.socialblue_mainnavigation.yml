@@ -1,0 +1,27 @@
+uuid: 9aa17f55-09fe-4db4-b71c-f42cbf2c7020
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - socialblue
+_core:
+  default_config_hash: G__z_1Sj0z-HowcyDBUlQ4Muwd89CXXhV-r3ZfqeZCA
+id: socialblue_mainnavigation
+theme: socialblue
+region: header
+weight: 4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

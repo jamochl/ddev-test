@@ -1,0 +1,25 @@
+uuid: d2225f36-41e9-458b-a27e-772b3527aff8
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_link_an
+    - paragraphs.paragraphs_type.button
+  module:
+    - link
+_core:
+  default_config_hash: i118FPR6IYwe6qrgyblfQsacd1EDOxTZ8i00_68eVXs
+id: paragraph.button.field_button_link_an
+field_name: field_button_link_an
+entity_type: paragraph
+bundle: button
+label: 'Link for Anonymous User'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

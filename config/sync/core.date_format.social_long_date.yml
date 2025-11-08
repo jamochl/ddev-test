@@ -1,0 +1,10 @@
+uuid: 14cdef09-2961-4d5f-a388-04c44c76b6e9
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yn7hJ7aKHaqAB7NobQ5AvSonDaKip1njklGDp6I6yN4
+id: social_long_date
+label: 'Social long date'
+locked: false
+pattern: 'j F Y'

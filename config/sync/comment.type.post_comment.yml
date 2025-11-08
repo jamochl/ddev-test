@@ -1,0 +1,10 @@
+uuid: 3cc89556-ec0c-46c5-a896-8ffaf1be07d9
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hGHnIBzGy-ezfVmmfzoO6FbC-fhM8_KKG_Ysyae9xtk
+id: post_comment
+label: 'Post comment'
+target_entity_type_id: post
+description: 'Comment on a post in the activity streams'

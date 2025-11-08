@@ -1,0 +1,13 @@
+uuid: af88ec66-ef40-44fb-9b4e-e221e5eef78d
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: uZskjNgOEUdKQ5z_ZXx1K6A5ofp84f81Ra_ACAD_HqA
+id: profile.name
+label: Name
+description: ''
+targetEntityType: profile
+cache: true

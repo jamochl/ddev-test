@@ -1,0 +1,19 @@
+uuid: a0e67dce-36e9-4699-b376-8b9f84908e53
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FK1aIcm7WNB5LxKEQikPArccHbZ_kJKneTr1oXhNar8
+id: ProfileMention
+name: ProfileMention
+description: 'Mention by Profile entity'
+mention_type: entity
+input:
+  prefix: '[~'
+  entity_type: profile
+  inputvalue: profile_id
+  suffix: ']'
+output:
+  outputvalue: '[social_mentions:user_name]'
+  renderlink: 1
+  renderlinktextbox: 'user/[profile:uid:target_id]'

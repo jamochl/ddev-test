@@ -1,0 +1,31 @@
+uuid: c8b6d9c1-1425-4ac3-be91-7db1c450dda9
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_content_list
+    - field.storage.block_content.field_topic_type
+    - taxonomy.vocabulary.topic_types
+_core:
+  default_config_hash: PCCCXaYXb497e1r6acdrwFMmqiaCXgChaT3dm3ExzTU
+id: block_content.custom_content_list.field_topic_type
+field_name: field_topic_type
+entity_type: block_content
+bundle: custom_content_list
+label: 'Topic type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic_types: topic_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

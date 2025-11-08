@@ -1,0 +1,21 @@
+uuid: 2edff054-0e0d-48b4-8c85-80754c3b5c9c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_group_location
+    - group.type.public_group
+_core:
+  default_config_hash: cBgTQg7_F-v-hpcwm3Yeh_Us6hv8q4MDs1aBcy22iMs
+id: group.public_group.field_group_location
+field_name: field_group_location
+entity_type: group
+bundle: public_group
+label: 'Location name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: d7ec7486-b11a-4f4e-8f94-84e211917f03
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.queue_storage_entity.field_reply_to
+    - social_queue_storage.queue_storage_entity_type.email
+_core:
+  default_config_hash: tMAxiqq1jn-yZjFesNiNSOSLAWMY_Zkh-qtr11wM0vw
+id: queue_storage_entity.email.field_reply_to
+field_name: field_reply_to
+entity_type: queue_storage_entity
+bundle: email
+label: reply_to
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

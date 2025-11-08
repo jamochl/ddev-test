@@ -1,0 +1,21 @@
+uuid: fbf13787-96b9-4588-a8a5-0f33f81e9ebb
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_content_list
+    - field.storage.block_content.field_subtitle
+_core:
+  default_config_hash: PDLnIJ7u2b33gAW02D2BTmhK9fG2nRHOq9nBdj_m7kk
+id: block_content.custom_content_list.field_subtitle
+field_name: field_subtitle
+entity_type: block_content
+bundle: custom_content_list
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

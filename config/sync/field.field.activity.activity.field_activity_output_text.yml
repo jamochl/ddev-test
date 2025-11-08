@@ -1,0 +1,24 @@
+uuid: 4f7f1ff4-6bc3-4039-ba4c-7d0dc8657196
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.activity.field_activity_output_text
+  module:
+    - activity_creator
+    - text
+_core:
+  default_config_hash: KKtOWu8ilF4yMXycy8TjKgHrka_qCzukB621BsjEFlI
+id: activity.activity.field_activity_output_text
+field_name: field_activity_output_text
+entity_type: activity
+bundle: activity
+label: 'Output text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

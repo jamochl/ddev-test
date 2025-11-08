@@ -1,0 +1,22 @@
+uuid: 4688cb71-5a7e-4653-98d1-29f6fe05d034
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: vy8vZY1Hm6PxcFQROLXhEoEx9Ct7malMNcIT-JFJNtY
+id: block_content.field_item_amount
+field_name: field_item_amount
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

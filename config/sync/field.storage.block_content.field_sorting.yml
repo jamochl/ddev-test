@@ -1,0 +1,44 @@
+uuid: b8d56731-234f-4841-92d8-c6504bed57ea
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: jfFWC6qbLW5UZtLDCfoXlocaXkE3SYPp16cmSb33iA4
+id: block_content.field_sorting
+field_name: field_sorting
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: created
+      label: 'Most recent'
+    -
+      value: changed
+      label: 'Last updated'
+    -
+      value: most_commented
+      label: 'Most commented'
+    -
+      value: last_commented
+      label: 'Last commented'
+    -
+      value: most_liked
+      label: 'Most liked'
+    -
+      value: last_interacted
+      label: Trending
+    -
+      value: trending
+      label: 'Most popular'
+  allowed_values_function: _social_content_block_allowed_values_callback
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

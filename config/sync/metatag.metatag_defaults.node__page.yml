@@ -1,0 +1,14 @@
+uuid: d485aa82-c2cf-4406-9496-eb11d7acbf55
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lAhewQeNilH-DZO2jCK-d90KiYnOhIAZaeDSmIviAOU
+id: node__page
+label: 'Content: Basic page'
+tags:
+  title: '[current-page:title]'
+  og_description: '[node:body]'
+  og_image: '[node:field_page_image:entity:url]'
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title]'

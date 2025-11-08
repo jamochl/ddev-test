@@ -1,0 +1,13 @@
+uuid: 038e3917-9cc8-4a87-976b-bea0bcf18797
+langcode: en-gb
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_profile_fields
+_core:
+  default_config_hash: R50ub5A9nqaMlOqI9t8Bx9emSjD8NJQjyQdlEz7BWjY
+name: Nationality
+vid: nationality
+description: Nationalities
+weight: 0

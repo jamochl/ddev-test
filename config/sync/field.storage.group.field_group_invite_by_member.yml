@@ -1,0 +1,23 @@
+uuid: 8eb6a32d-17e5-4bef-b56a-554c75bbcfa1
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - group
+  enforced:
+    module:
+      - social_group_invite
+_core:
+  default_config_hash: oEndhBtD9aaHfAUJi4Ty5GXGCovADWDPpH-7s3Y_ook
+id: group.field_group_invite_by_member
+field_name: field_group_invite_by_member
+entity_type: group
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

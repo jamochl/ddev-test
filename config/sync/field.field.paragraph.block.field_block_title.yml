@@ -1,0 +1,21 @@
+uuid: 4a2becfa-fa5a-4a0b-b022-b956da8a6254
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_title
+    - paragraphs.paragraphs_type.block
+_core:
+  default_config_hash: SqObIEcgJ_sDzGCkbYWs7lscRWejagQFm5eAUotdnoU
+id: paragraph.block.field_block_title
+field_name: field_block_title
+entity_type: paragraph
+bundle: block
+label: Title
+description: 'Optional field, title can be printed from block or overridden here. Uncheck <em>Display title</em> if using this field'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

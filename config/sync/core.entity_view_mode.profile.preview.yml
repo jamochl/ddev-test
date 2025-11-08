@@ -1,0 +1,16 @@
+uuid: bd63047f-183e-4b12-8074-ee0042450734
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - social_profile_preview
+_core:
+  default_config_hash: BKgcZVZCH5bPc-F0jOVAB1jLWHZxl1k6PKS8Xqpi4WI
+id: profile.preview
+label: Preview
+description: ''
+targetEntityType: profile
+cache: true

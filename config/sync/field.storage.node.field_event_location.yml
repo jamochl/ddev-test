@@ -1,0 +1,23 @@
+uuid: 2c066b6b-b9c0-4c74-87b5-0f9ceb8f8e73
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: e1C4rmrO-3L1I0l2J5EP0LneHwi2Ts398GxTX40rLIM
+id: node.field_event_location
+field_name: field_event_location
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

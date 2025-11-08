@@ -1,0 +1,20 @@
+uuid: b0e4eb59-7bd1-466c-b6b1-ecd74908f804
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: AP3-z4997IDgDv5bx8-ZX4wLitbcPCWma_5fy-0oduo
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
+default_langcode: site_default
+language_alterable: false

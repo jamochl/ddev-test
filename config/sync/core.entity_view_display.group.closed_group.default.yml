@@ -1,0 +1,40 @@
+uuid: 66644e30-9e7d-4b04-ba5e-2e3b21096832
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.group.closed_group.field_group_address
+    - field.field.group.closed_group.field_group_description
+    - field.field.group.closed_group.field_group_image
+    - field.field.group.closed_group.field_group_location
+    - group.type.closed_group
+_core:
+  default_config_hash: h1_JVWOyQwrVZyaJnQckehiP27z0T2dEwaun8wXTITA
+id: group.closed_group.default
+targetEntityType: group
+bundle: closed_group
+mode: default
+content:
+  field_group_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  flag_mute_group_notifications:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  changed: true
+  created: true
+  field_group_address: true
+  field_group_description: true
+  field_group_image: true
+  field_group_location: true
+  label: true
+  langcode: true
+  search_api_excerpt: true
+  uid: true

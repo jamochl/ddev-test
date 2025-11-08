@@ -1,0 +1,21 @@
+uuid: 2c7783a2-e5b1-4703-966c-45b4b57513a8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - activity_creator
+    - text
+_core:
+  default_config_hash: 06cWTl_3baOiRi22wjKhCxOWsSII3Jlslk8-tpYDzuo
+id: activity.field_activity_output_text
+field_name: field_activity_output_text
+entity_type: activity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

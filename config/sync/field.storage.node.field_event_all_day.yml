@@ -1,0 +1,23 @@
+uuid: eb9296c9-c6f6-4bcd-b8db-67dff1b9507e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - social_event
+_core:
+  default_config_hash: vDHQAgbEt-K9-kQtuaJkL0DQHMXxpi4vhOuEUx9E9N0
+id: node.field_event_all_day
+field_name: field_event_all_day
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

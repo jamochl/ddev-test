@@ -1,0 +1,22 @@
+uuid: e823bba7-c8cb-4238-b9e2-db8d08b3b129
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+    - taxonomy
+_core:
+  default_config_hash: 69tP_2Y05CAie9BQrrTJ3sn-BZbhM7YfvDANKg3Xfx0
+id: block_content.field_topic_type
+field_name: field_topic_type
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

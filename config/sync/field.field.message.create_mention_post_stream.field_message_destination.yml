@@ -1,0 +1,23 @@
+uuid: 38ffb9bb-9d24-4d74-b803-be471a4e43b2
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_destination
+    - message.template.create_mention_post_stream
+  module:
+    - options
+_core:
+  default_config_hash: EGtFcMxgWAmnyTB9An1GXcWq0KTzE9MJFIpO6N71DzY
+id: message.create_mention_post_stream.field_message_destination
+field_name: field_message_destination
+entity_type: message
+bundle: create_mention_post_stream
+label: field_message_destination
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

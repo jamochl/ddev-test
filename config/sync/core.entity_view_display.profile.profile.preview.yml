@@ -1,0 +1,116 @@
+uuid: eedd261b-09fd-44e9-84a3-8085e89e127e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.profile.preview
+    - field.field.profile.profile.field_profile_address
+    - field.field.profile.profile.field_profile_banner_image
+    - field.field.profile.profile.field_profile_expertise
+    - field.field.profile.profile.field_profile_first_name
+    - field.field.profile.profile.field_profile_function
+    - field.field.profile.profile.field_profile_image
+    - field.field.profile.profile.field_profile_interests
+    - field.field.profile.profile.field_profile_last_name
+    - field.field.profile.profile.field_profile_nationality
+    - field.field.profile.profile.field_profile_nick_name
+    - field.field.profile.profile.field_profile_organization
+    - field.field.profile.profile.field_profile_organization_tag
+    - field.field.profile.profile.field_profile_phone_number
+    - field.field.profile.profile.field_profile_profile_tag
+    - field.field.profile.profile.field_profile_self_introduction
+    - field.field.profile.profile.field_profile_show_email
+    - field.field.profile.profile.field_profile_summary
+    - image.style.social_large
+    - profile.type.profile
+  module:
+    - social_profile
+    - social_profile_preview
+    - text
+  enforced:
+    module:
+      - social_profile_preview
+_core:
+  default_config_hash: yKzDGeTMmrpJlrA2ZHIsHU2LQfEOsGh1SaB18qmlhKI
+id: profile.profile.preview
+targetEntityType: profile
+bundle: profile
+mode: preview
+content:
+  field_profile_function:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_profile_image:
+    type: social_profile_avatar
+    label: visually_hidden
+    settings:
+      image_link: owner
+      image_style: social_large
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_profile_self_introduction:
+    type: text_trimmed
+    label: visually_hidden
+    settings:
+      trim_length: 140
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_profile_summary:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  flag_follow_user:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  followers:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  following:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  private_message_link:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  uid:
+    type: social_profile_preview_username
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_profile_address: true
+  field_profile_banner_image: true
+  field_profile_expertise: true
+  field_profile_first_name: true
+  field_profile_interests: true
+  field_profile_last_name: true
+  field_profile_nationality: true
+  field_profile_nick_name: true
+  field_profile_organization: true
+  field_profile_organization_tag: true
+  field_profile_phone_number: true
+  field_profile_profile_tag: true
+  field_profile_show_email: true
+  search_api_excerpt: true
+  social_tagging: true

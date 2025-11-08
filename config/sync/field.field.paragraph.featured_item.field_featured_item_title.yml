@@ -1,0 +1,21 @@
+uuid: a339703b-8991-4bc6-87fd-a125247278f6
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_featured_item_title
+    - paragraphs.paragraphs_type.featured_item
+_core:
+  default_config_hash: bKyafGZbdlqVQs71KARj9F-7eZtNeBPza3I3EzSO-kI
+id: paragraph.featured_item.field_featured_item_title
+field_name: field_featured_item_title
+entity_type: paragraph
+bundle: featured_item
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

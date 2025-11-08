@@ -1,0 +1,22 @@
+uuid: 63a94f3e-b489-47a0-b4d9-0002d1307f2c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - social_event
+  theme:
+    - socialbase
+_core:
+  default_config_hash: YzatBYeVihal6WcOj96GRG0JWBI0pmTzIK1pT7LuJGE
+id: eventrequestsnotification
+theme: socialbase
+region: content
+weight: -29
+provider: null
+plugin: event_requests_notification
+settings:
+  id: event_requests_notification
+  label: 'Event requests notification'
+  label_display: '0'
+  provider: social_event
+visibility: {  }

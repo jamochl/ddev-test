@@ -1,0 +1,25 @@
+uuid: 738c0458-cd3c-40a5-bf07-12ca4bd7a0b6
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - file
+    - node
+_core:
+  default_config_hash: cjXlAjRTh79FIN2pbk2SOTyv0P-jWGcvQMOg5HWC9TM
+id: node.field_files
+field_name: field_files
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: private
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

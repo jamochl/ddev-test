@@ -1,0 +1,33 @@
+uuid: 1494d3f2-d90d-4423-ae21-997a4eba1c2d
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - social_user
+    - user
+  theme:
+    - socialblue
+_core:
+  default_config_hash: '-IhZcKt9IHKiTwXC8sVC0jZ-1XWUKn5g0IsJAfs6O60'
+id: socialblue_accountheaderblock
+theme: socialblue
+region: header
+weight: 2
+provider: null
+plugin: account_header_block
+settings:
+  id: account_header_block
+  label: 'Account header block'
+  label_display: '0'
+  provider: social_user
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator

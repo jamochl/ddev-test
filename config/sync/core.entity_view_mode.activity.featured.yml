@@ -1,0 +1,13 @@
+uuid: da7d7dc9-b0d4-44ef-9b82-93c925fd2014
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - activity_creator
+_core:
+  default_config_hash: KrDci7naaCZKVlc4ImEOh59agcqx-yG7viJJK6owfIs
+id: activity.featured
+label: Featured
+description: ''
+targetEntityType: activity
+cache: true
