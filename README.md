@@ -11,7 +11,8 @@ It's just composer, isn't it awesome? :)
 ```sh
 ddev start
 ddev composer install
-ddev drush sql:cli < sql/dev-sanitized.sql
+ddev drush site-install social --db-url=mysql://db:db@db:3306/db -y
+ddev drush sql:cli < sql/site-sanitized.sql
 ddev drush cim -y
 ddev drush cr
 ddev drush user:password admin "admin123"
