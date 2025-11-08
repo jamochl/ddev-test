@@ -6,6 +6,18 @@ This is a composer based installer for the [Open Social distribution](https://ww
 
 It's just composer, isn't it awesome? :)
 
+## Installation of this site
+
+```sh
+ddev start
+ddev composer install
+ddev drush sql:cli < sql/dev-sanitized.sql
+ddev drush cim -y
+ddev drush cr
+ddev drush user:password admin "admin123"
+ddev launch
+```
+
 ## Installation of Open Social
 
 ```
